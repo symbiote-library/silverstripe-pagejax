@@ -32,15 +32,15 @@ to
 
 Then, any link you want to loaded internally needs to have the pagejax 
 class applied, ie
-
+```html
 	<a href="some/internal/page" class="pagejax">Internal page</a>
-
+```
 
 To customise the way the page transitions in and out, you can bind to the 
 window.pagejaxStart and window.pagejaxComplete events, eg
-
+```javascript
 	$(window).bind('pagejaxStart', function () { });
-
+```
 To change the page title on each refresh, specify an `ajaxTitle()` method on
 your Page_Controller class; otherwise, the page title will not be chanaged.
 
