@@ -1,0 +1,28 @@
+{
+	"name": "silverstripe-australia/silverstripe-pagejax",
+	"type": "silverstripe-module",
+	"description": "Adds partial page loading using ajax",
+	"keywords": ["silverstripe", "ajax"],
+	"license": "BSD License",
+	"authors": [
+		{
+			"name": "Marcus Nyeholt",
+			"email": "marcus@silverstripe.com.au"
+		},
+		{
+			"name": "Shea Dawson",
+			"email": "shea@livesource.co.nz"
+		}
+	],
+	"require": 
+	{
+		"composer/installers": "*",
+		"silverstripe/framework": ">=3.0"
+	},
+	"support": {
+		"issues": "https://github.com/silverstripe-australia/silverstripe-pagejax/issues"
+	},
+	"extra": {
+		"installer-name": "pagejax"
+	}
+}
