@@ -4,7 +4,7 @@ Adds partial page loading using ajax.
 
 ## Installation
 
-Follow the standard SilverStripe module installation procedure [installation procedure](http://doc.silverstripe.com/framework/en/topics/modules#installation)
+Follow the standard SilverStripe module [installation procedure](http://doc.silverstripe.com/framework/en/topics/modules#installation)
 
 ## Requirements
 
