@@ -8,8 +8,8 @@ class PagejaxExtension extends Extension {
 	
 	public function onAfterInit() {
 		// it is assumed that jquery has been included by something else... 
-		Requirements::javascript('pagejax/javascript/jquery.history.1.8.js');
-		Requirements::javascript('pagejax/javascript/jquery.pagejax.js');
+		Requirements::javascript(PAGEJAX_DIR . '/javascript/jquery.history.1.8.js');
+		Requirements::javascript(PAGEJAX_DIR . '/javascript/jquery.pagejax.js');
 		
 		if ($this->owner->hasMethod('ajaxTitle') && $this->owner->getRequest()->getHeader('X-Pagejax')) {
 			$this->owner->getResponse()->addHeader('X-PageTitle', $this->owner->ajaxTitle());
@@ -22,7 +22,7 @@ class PagejaxExtension extends Extension {
 		if ($this->owner->getRequest()->getHeader('X-Pagejax') && isset($chosen['main'])) {
 			$ajax = str_replace('.ss', '_Ajax.ss', $chosen['main']);
 			if (!file_exists($ajax)) {
-				$ajax = PAGEJAX_DIR . '/templates/AjaxPage.ss';
+				$ajax = PAGEJAX_PATH . '/templates/AjaxPage.ss';
 			}
 			$viewer->setTemplateFile('main', $ajax); 
 		}
