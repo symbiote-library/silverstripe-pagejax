@@ -32,7 +32,6 @@
 			
 			// Ajaxify
 			$(links).click(function(event){
-				if(event.target != this) return false;
 				// Prepare
 				var
 					$this = $(this),
