@@ -35,7 +35,7 @@
 				// Prepare
 				var
 					$this = $(this),
-					url = $this.attr('href'),
+					url = $this.attr('href') || $this.data('href'),
 					title = $this.attr('title')|| 'loading...';
 				
 				// Continue as normal for cmd clicks etc
