@@ -1,3 +1,7 @@
+> ## **IMPORTANT**
+
+> This module is no longer maintained, however if you would like to step forward and do so, please let us know.
+
 # Pagejax module for SilverStripe
 
 Adds partial page loading using ajax. 
