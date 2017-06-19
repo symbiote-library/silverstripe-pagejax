@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe-australia/silverstripe-pagejax",
+	"name": "symbiote-library/silverstripe-pagejax",
 	"type": "silverstripe-module",
 	"description": "Adds partial page loading using ajax",
 	"keywords": ["silverstripe", "ajax"],
@@ -19,6 +19,9 @@
 		"issues": "https://github.com/silverstripe-australia/silverstripe-pagejax/issues"
 	},
 	"extra": {
-		"installer-name": "pagejax"
+		"installer-name": "pagejax",
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
 	}
 }
