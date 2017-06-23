@@ -7,7 +7,7 @@
 	"authors": [
 		{
 			"name": "Marcus Nyeholt",
-			"email": "marcus@silverstripe.com.au"
+			"email": "marcus@symbiote.com.au"
 		}
 	],
 	"require": 
@@ -16,7 +16,7 @@
 		"silverstripe/framework": ">=3.0"
 	},
 	"support": {
-		"issues": "https://github.com/silverstripe-australia/silverstripe-pagejax/issues"
+		"issues": "https://github.com/symbiote/silverstripe-pagejax/issues"
 	},
 	"extra": {
 		"installer-name": "pagejax",
