@@ -16,7 +16,7 @@
 		"silverstripe/framework": ">=3.0"
 	},
 	"support": {
-		"issues": "https://github.com/symbiote/silverstripe-pagejax/issues"
+		"issues": "https://github.com/symbiote-library/silverstripe-pagejax/issues"
 	},
 	"extra": {
 		"installer-name": "pagejax",
