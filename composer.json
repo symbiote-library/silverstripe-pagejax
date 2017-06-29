@@ -23,5 +23,8 @@
 		"branch-alias": {
 			"dev-master": "1.0.x-dev"
 		}
+	},
+	"replace": {
+		"silverstripe-australia/silverstripe-pagejax": "self.version"
 	}
 }
